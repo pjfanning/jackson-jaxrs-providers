@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion> 
+  <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.fasterxml.jackson</groupId>
-    <artifactId>jackson-base</artifactId>
+    <artifactId>jackson-bom</artifactId>
     <version>2.13.5</version>
   </parent>
-  <groupId>com.fasterxml.jackson.jaxrs</groupId>
+  <groupId>com.github.pjfanning</groupId>
   <artifactId>jackson-jaxrs-providers</artifactId>
   <name>Jackson JAX-RS</name>
   <version>2.13.5-SNAPSHOT</version>
@@ -23,11 +23,11 @@
     <module>xml</module>
     <module>yaml</module>
   </modules>
-  <url>http://github.com/FasterXML/jackson-jaxrs-providers</url>    
+  <url>https://github.com/pjfanning/jackson-jaxrs-providers</url>
   <scm>
-    <connection>scm:git:git@github.com:FasterXML/jackson-jaxrs-providers.git</connection>
-    <developerConnection>scm:git:git@github.com:FasterXML/jackson-jaxrs-providers.git</developerConnection>
-    <url>http://github.com/FasterXML/jackson-jaxrs-providers</url>
+    <connection>scm:git:git@github.com:pjfanning/jackson-jaxrs-providers.git</connection>
+    <developerConnection>scm:git:git@github.com:pjfanning/jackson-jaxrs-providers.git</developerConnection>
+    <url>https://github.com/pjfanning/jackson-jaxrs-providers</url>
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
@@ -169,6 +169,7 @@
      <plugin>
         <groupId>de.jjohannes</groupId>
         <artifactId>gradle-module-metadata-maven-plugin</artifactId>
+        <version>0.3.0</version>
       </plugin>
 
       <!-- 05-Mar-2021, tatu: needed temporary override to prevent auto-close on release

@@ -17,7 +17,7 @@ public enum JaxRSFeature implements ConfigFeature
 
     /**
      * Feature related to
-     * <a href="https://github.com/FasterXML/jackson-jaxrs-providers/issues/49">Issue #49</a>:
+     * <a href="https://github.com/pjfanning/jackson-jaxrs-providers/issues/49">Issue #49</a>:
      * whether empty input is considered legal or not.
      * If set to true, empty content is allowed and will be read as Java 'null': if false,
      * an {@link java.io.IOException} will be thrown.
