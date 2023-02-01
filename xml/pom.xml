@@ -20,8 +20,9 @@
   <properties>
     <!-- Generate PackageVersion.java into this directory. -->
     <packageVersion.dir>com/fasterxml/jackson/jaxrs/xml</packageVersion.dir>
-    <packageVersion.package>${project.groupId}.xml</packageVersion.package>
-    <osgi.export>${project.groupId}.xml.*;version=${project.version}</osgi.export>
+    <packageName>com.fasterxml.jackson.jaxrs</packageName>
+    <packageVersion.package>${packageName}.xml</packageVersion.package>
+    <osgi.export>${packageName}.xml.*;version=${project.version}</osgi.export>
     <!-- NOTE: JAXB annotations module is NOT optional for xml format:
 ,com.fasterxml.jackson.module.jaxb;resolution:=optional
       -->

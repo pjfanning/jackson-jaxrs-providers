@@ -21,8 +21,9 @@ using standard Jackson data binding.
   <properties>
     <!-- Generate PackageVersion.java into this directory. -->
     <packageVersion.dir>com/fasterxml/jackson/jaxrs/yaml</packageVersion.dir>
-    <packageVersion.package>${project.groupId}.yaml</packageVersion.package>
-    <osgi.export>${project.groupId}.yaml.*;version=${project.version}</osgi.export>
+    <packageName>com.fasterxml.jackson.jaxrs</packageName>
+    <packageVersion.package>${packageName}.yaml</packageVersion.package>
+    <osgi.export>${packageName}.yaml.*;version=${project.version}</osgi.export>
     <!-- NOTE: JAXB annotations module is optional dependency, need to try to mark
          as such here.
       -->

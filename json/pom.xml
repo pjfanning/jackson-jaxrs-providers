@@ -20,8 +20,9 @@
   <properties>
     <!-- Generate PackageVersion.java into this directory. -->
     <packageVersion.dir>com/fasterxml/jackson/jaxrs/json</packageVersion.dir>
-    <packageVersion.package>${project.groupId}.json</packageVersion.package>
-    <osgi.export>${project.groupId}.json.*;version=${project.version}</osgi.export>
+    <packageName>com.fasterxml.jackson.jaxrs</packageName>
+    <packageVersion.package>${packageName}.json</packageVersion.package>
+    <osgi.export>${packageName}.json.*;version=${project.version}</osgi.export>
     <!-- NOTE: JAXB annotations module is optional dependency, need to try to mark
          as such here.
       -->
