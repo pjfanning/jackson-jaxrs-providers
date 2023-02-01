@@ -104,7 +104,7 @@ public abstract class ProviderBase<
     /**
      * Map that contains overrides to default list of untouchable
      * types: <code>true</code> meaning that entry is untouchable,
-     * <code>false</code> that is is not.
+     * <code>false</code> that is not.
      */
     protected HashMap<ClassKey,Boolean> _cfgCustomUntouchables;
 
@@ -112,7 +112,7 @@ public abstract class ProviderBase<
      * Whether we want to actually check that Jackson has
      * a serializer for given type. Since this should generally
      * be the case (due to auto-discovery) and since the call
-     * to check availability can be bit expensive, defaults to false.
+     * to check availability can be a bit expensive, defaults to false.
      */
     protected boolean _cfgCheckCanSerialize = false;
 
@@ -120,7 +120,7 @@ public abstract class ProviderBase<
      * Whether we want to actually check that Jackson has
      * a deserializer for given type. Since this should generally
      * be the case (due to auto-discovery) and since the call
-     * to check availability can be bit expensive, defaults to false.
+     * to check availability can be a bit expensive, defaults to false.
      */
     protected boolean _cfgCheckCanDeserialize = false;
 
