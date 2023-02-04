@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.annotation;
+package com.github.pjfanning.jackson.jaxrs.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -6,8 +6,8 @@ import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector;
 import com.fasterxml.jackson.dataformat.smile.SmileFactory;
 
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.Annotations;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.MapperConfiguratorBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.Annotations;
+import com.github.pjfanning.jackson.jaxrs.cfg.MapperConfiguratorBase;
 import com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector;
 
 /**

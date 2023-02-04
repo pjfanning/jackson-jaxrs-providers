@@ -1,6 +1,6 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.base.nocontent;
+package com.github.pjfanning.jackson.jaxrs.base.nocontent;
 
-import com.github.pjfanning.jackson.jaxrs.jaxrs.base.NoContentExceptionSupplier;
+import com.github.pjfanning.jackson.jaxrs.base.NoContentExceptionSupplier;
 
 import javax.ws.rs.core.NoContentException;
 import java.io.IOException;

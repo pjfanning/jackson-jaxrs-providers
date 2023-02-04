@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.util;
+package com.github.pjfanning.jackson.jaxrs.util;
 
 /**
  * Efficient key class, used instead of using <code>Class</code>.

@@ -4,7 +4,7 @@ import java.lang.annotation.Annotation;
 
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.cfg.MapperConfig;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.EndpointConfigBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.EndpointConfigBase;
 
 /**
  * Container class for figuring out annotation-based configuration

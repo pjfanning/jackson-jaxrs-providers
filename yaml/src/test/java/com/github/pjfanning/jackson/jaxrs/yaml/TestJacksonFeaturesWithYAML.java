@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.annotation.JacksonFeatures;
+import com.github.pjfanning.jackson.jaxrs.annotation.JacksonFeatures;
 
 import javax.ws.rs.core.MediaType;
 import java.io.ByteArrayInputStream;

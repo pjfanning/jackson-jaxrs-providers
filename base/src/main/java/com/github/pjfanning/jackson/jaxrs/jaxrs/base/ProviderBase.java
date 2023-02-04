@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.base;
+package com.github.pjfanning.jackson.jaxrs.base;
 
 import java.io.*;
 import java.lang.annotation.Annotation;
@@ -16,19 +16,19 @@ import javax.ws.rs.ext.MessageBodyWriter;
 import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.base.nocontent.JaxRS1NoContentExceptionSupplier;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.base.nocontent.JaxRS2NoContentExceptionSupplier;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.util.ClassKey;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.util.LRUMap;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.AnnotationBundleKey;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.Annotations;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.EndpointConfigBase;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.JaxRSFeature;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.MapperConfiguratorBase;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.ObjectReaderInjector;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.ObjectReaderModifier;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.ObjectWriterInjector;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.ObjectWriterModifier;
+import com.github.pjfanning.jackson.jaxrs.base.nocontent.JaxRS1NoContentExceptionSupplier;
+import com.github.pjfanning.jackson.jaxrs.base.nocontent.JaxRS2NoContentExceptionSupplier;
+import com.github.pjfanning.jackson.jaxrs.util.ClassKey;
+import com.github.pjfanning.jackson.jaxrs.util.LRUMap;
+import com.github.pjfanning.jackson.jaxrs.cfg.AnnotationBundleKey;
+import com.github.pjfanning.jackson.jaxrs.cfg.Annotations;
+import com.github.pjfanning.jackson.jaxrs.cfg.EndpointConfigBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.JaxRSFeature;
+import com.github.pjfanning.jackson.jaxrs.cfg.MapperConfiguratorBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.ObjectReaderInjector;
+import com.github.pjfanning.jackson.jaxrs.cfg.ObjectReaderModifier;
+import com.github.pjfanning.jackson.jaxrs.cfg.ObjectWriterInjector;
+import com.github.pjfanning.jackson.jaxrs.cfg.ObjectWriterModifier;
 
 public abstract class ProviderBase<
     THIS extends ProviderBase<THIS, MAPPER, EP_CONFIG, MAPPER_CONFIG>,

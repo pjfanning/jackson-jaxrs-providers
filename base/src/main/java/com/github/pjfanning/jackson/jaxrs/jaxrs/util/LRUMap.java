@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.util;
+package com.github.pjfanning.jackson.jaxrs.util;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

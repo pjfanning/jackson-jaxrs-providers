@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.cfg.MapperConfig;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.fasterxml.jackson.databind.util.JSONWrappedObject;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.EndpointConfigBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.EndpointConfigBase;
 import com.github.pjfanning.jackson.jaxrs.json.annotation.JSONP;
 
 /**

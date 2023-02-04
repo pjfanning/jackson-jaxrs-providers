@@ -1,7 +1,7 @@
 package com.github.pjfanning.jackson.jaxrs.yaml;
 
 import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.Annotations;
+import com.github.pjfanning.jackson.jaxrs.cfg.Annotations;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.Produces;

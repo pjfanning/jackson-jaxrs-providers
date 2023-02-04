@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.base;
+package com.github.pjfanning.jackson.jaxrs.base;
 
 import com.fasterxml.jackson.core.JsonParseException;
 

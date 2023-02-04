@@ -15,9 +15,9 @@ import org.eclipse.jetty.server.Server;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.EndpointConfigBase;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.ObjectWriterInjector;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.ObjectWriterModifier;
+import com.github.pjfanning.jackson.jaxrs.cfg.EndpointConfigBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.ObjectWriterInjector;
+import com.github.pjfanning.jackson.jaxrs.cfg.ObjectWriterModifier;
 
 public abstract class WriteModificationsTestBase extends ResourceTestBase
 {

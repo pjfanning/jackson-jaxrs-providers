@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.cfg;
+package com.github.pjfanning.jackson.jaxrs.cfg;
 
 import com.fasterxml.jackson.core.*;
 

@@ -6,7 +6,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.ext.Provider;
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.Annotations;
+import com.github.pjfanning.jackson.jaxrs.cfg.Annotations;
 
 /**
  * JSON content type provider automatically configured to use both Jackson

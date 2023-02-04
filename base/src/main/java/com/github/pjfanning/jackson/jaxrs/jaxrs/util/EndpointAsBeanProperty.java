@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.util;
+package com.github.pjfanning.jackson.jaxrs.util;
 
 import java.lang.annotation.Annotation;
 

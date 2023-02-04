@@ -6,8 +6,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.base.ProviderBase;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.Annotations;
+import com.github.pjfanning.jackson.jaxrs.base.ProviderBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.Annotations;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.Produces;

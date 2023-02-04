@@ -9,7 +9,7 @@ import java.util.Map;
 
 import javax.ws.rs.core.MediaType;
 
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.JaxRSFeature;
+import com.github.pjfanning.jackson.jaxrs.cfg.JaxRSFeature;
 
 /**
  * Unit test to check [JACKSON-540]

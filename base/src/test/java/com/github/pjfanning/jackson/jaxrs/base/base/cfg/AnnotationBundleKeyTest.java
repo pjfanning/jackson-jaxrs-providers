@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.github.pjfanning.jackson.jaxrs.base.base.BaseTestBase;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.AnnotationBundleKey;
+import com.github.pjfanning.jackson.jaxrs.cfg.AnnotationBundleKey;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertNotEquals;

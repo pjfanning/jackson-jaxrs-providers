@@ -1,4 +1,4 @@
-package com.github.pjfanning.jackson.jaxrs.jaxrs.cfg;
+package com.github.pjfanning.jackson.jaxrs.cfg;
 
 import java.lang.annotation.Annotation;
 
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 import com.fasterxml.jackson.annotation.JsonView;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.cfg.MapperConfig;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.annotation.JacksonFeatures;
+import com.github.pjfanning.jackson.jaxrs.annotation.JacksonFeatures;
 
 /**
  * Container class for figuring out annotation-based configuration

@@ -3,7 +3,7 @@ package com.github.pjfanning.jackson.jaxrs.json.util;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.AnnotationBundleKey;
+import com.github.pjfanning.jackson.jaxrs.cfg.AnnotationBundleKey;
 
 import com.github.pjfanning.jackson.jaxrs.json.JaxrsTestBase;
 import com.github.pjfanning.jackson.jaxrs.json.annotation.JSONP;

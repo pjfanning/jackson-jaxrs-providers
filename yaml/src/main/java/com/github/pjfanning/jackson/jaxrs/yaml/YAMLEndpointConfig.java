@@ -3,7 +3,7 @@ package com.github.pjfanning.jackson.jaxrs.yaml;
 import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.cfg.MapperConfig;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.EndpointConfigBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.EndpointConfigBase;
 
 import java.lang.annotation.Annotation;
 

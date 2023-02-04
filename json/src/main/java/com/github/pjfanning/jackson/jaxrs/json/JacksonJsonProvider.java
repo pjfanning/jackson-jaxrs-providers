@@ -8,8 +8,8 @@ import javax.ws.rs.ext.*;
 
 import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.databind.*;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.base.ProviderBase;
-import com.github.pjfanning.jackson.jaxrs.jaxrs.cfg.Annotations;
+import com.github.pjfanning.jackson.jaxrs.base.ProviderBase;
+import com.github.pjfanning.jackson.jaxrs.cfg.Annotations;
 
 
 /**
