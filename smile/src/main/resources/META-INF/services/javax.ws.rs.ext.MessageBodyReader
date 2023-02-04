@@ -1,1 +1,1 @@
-com.fasterxml.jackson.jaxrs.smile.JacksonSmileProvider
+com.github.pjfanning.jackson.jaxrs.smile.JacksonSmileProvider

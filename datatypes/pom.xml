@@ -11,8 +11,6 @@
     <artifactId>jackson-jaxrs-providers</artifactId>
     <version>2.13.5-SNAPSHOT</version>
   </parent>
-  <!-- note: different group id, it being datatype -->
-  <groupId>com.fasterxml.jackson.datatype</groupId>
   <artifactId>jackson-datatype-jaxrs</artifactId>
   <name>Jackson-JAXRS-Datatypes</name>
   <packaging>bundle</packaging>
@@ -21,9 +19,9 @@
 
   <properties>
     <!-- Generate PackageVersion.java into this directory. -->
-    <packageVersion.dir>com/fasterxml/jackson/datatype/jaxrs</packageVersion.dir>
-    <packageVersion.package>com.fasterxml.jackson.datatype.jaxrs</packageVersion.package>
-    <osgi.export>com.fasterxml.jackson.datatype.jaxrs.*;version=${project.version}</osgi.export>
+    <packageVersion.dir>com/github/pjfanning/jackson/datatype/jaxrs</packageVersion.dir>
+    <packageVersion.package>com.github.pjfanning.jackson.datatype.jaxrs</packageVersion.package>
+    <osgi.export>com.github.pjfanning.jackson.datatype.jaxrs.*;version=${project.version}</osgi.export>
     <!-- default imports should be fine -->
   </properties>
 
@@ -42,14 +40,14 @@
     <plugins>
       <plugin>
         <!-- Inherited from oss-base. Generate PackageVersion.java.-->
-	<groupId>com.google.code.maven-replacer-plugin</groupId>
+        <groupId>com.google.code.maven-replacer-plugin</groupId>
         <artifactId>replacer</artifactId>
-	   <executions>
+        <executions>
           <execution>
             <id>process-packageVersion</id>
             <phase>process-sources</phase>
           </execution>
-	   </executions>
+        </executions>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

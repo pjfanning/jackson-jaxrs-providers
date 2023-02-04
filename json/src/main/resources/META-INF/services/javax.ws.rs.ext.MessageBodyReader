@@ -1,1 +1,1 @@
-com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider
+com.github.pjfanning.jackson.jaxrs.json.JacksonJsonProvider

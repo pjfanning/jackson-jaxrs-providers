@@ -1,5 +1,5 @@
 // Originally generated using Moditect maven plugin, last mod 14-Oct-2020
-module com.fasterxml.jackson.datatype.jaxrs {
+module com.github.pjfanning.jackson.datatype.jaxrs {
     exports com.fasterxml.jackson.datatype.jaxrs;
 
     requires com.fasterxml.jackson.core;

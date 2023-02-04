@@ -1,1 +1,1 @@
-com.fasterxml.jackson.jaxrs.yaml.JacksonYAMLProvider
+com.github.pjfanning.jackson.jaxrs.yaml.JacksonYAMLProvider

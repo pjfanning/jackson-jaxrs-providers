@@ -19,8 +19,8 @@
 
   <properties>
     <!-- Generate PackageVersion.java into this directory. -->
-    <packageVersion.dir>com/fasterxml/jackson/jaxrs/xml</packageVersion.dir>
-    <packageName>com.fasterxml.jackson.jaxrs</packageName>
+    <packageVersion.dir>com/github/pjfanning/jackson/jaxrs/xml</packageVersion.dir>
+    <packageName>com.github.pjfanning.jackson.jaxrs</packageName>
     <packageVersion.package>${packageName}.xml</packageVersion.package>
     <osgi.export>${packageName}.xml.*;version=${project.version}</osgi.export>
     <!-- NOTE: JAXB annotations module is NOT optional for xml format:

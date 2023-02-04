@@ -1,10 +1,10 @@
 // Originally generated using Moditect maven plugin, last mod 14-Oct-2020
-module com.fasterxml.jackson.jaxrs.base {
-    exports com.fasterxml.jackson.jaxrs.annotation;
-    exports com.fasterxml.jackson.jaxrs.base;
-    exports com.fasterxml.jackson.jaxrs.base.nocontent;
-    exports com.fasterxml.jackson.jaxrs.cfg;
-    exports com.fasterxml.jackson.jaxrs.util;
+module com.github.pjfanning.jackson.jaxrs.base {
+    exports com.github.pjfanning.jackson.jaxrs.annotation;
+    exports com.github.pjfanning.jackson.jaxrs.base;
+    exports com.github.pjfanning.jackson.jaxrs.base.nocontent;
+    exports com.github.pjfanning.jackson.jaxrs.cfg;
+    exports com.github.pjfanning.jackson.jaxrs.util;
 
     requires com.fasterxml.jackson.annotation;
     requires com.fasterxml.jackson.core;

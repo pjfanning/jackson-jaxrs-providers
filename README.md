@@ -68,14 +68,14 @@ Here is a short list of supported annotations that work with all formats:
 * `@JsonView` can be used to define active view for specific endpoint
 * `@JsonRootName` can be used to specify alternate rootname; most often used with XML, but possibly with JSON as well.
 * `@JacksonAnnotationsInside` meta-annotation may be used as a marker, to create "annotation bundles", similar to how they are used with value type annotations
-* `com.fasterxml.jackson.jaxrs.annotation.JacksonFeatures` can be used with all provid to enable/disable
+* `com.github.pjfanning.jackson.jaxrs.annotation.jaxrs.JacksonFeatures` can be used with all provid to enable/disable
     * `SerializationFeature` / `DeserializationFeature` for data-binding configuration
     * `JsonParser.Feature` / `JsonGenerator.Feature` for low(er) level Streaming read/write options
 
 In addition there are format-specific annotations that may be used:
 
 * JSON has:
-    * `com.fasterxml.jackson.jaxrs.json.annotation.JSONP` to define `JSONP` wrapping for serialized result
+    * `com.github.pjfanning.jackson.jaxrs.json.annotation.json.JSONP` to define `JSONP` wrapping for serialized result
 
 
 ## Module Considerations

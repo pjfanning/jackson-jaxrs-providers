@@ -1,2 +1,2 @@
-com.fasterxml.jackson.jaxrs.cbor.JacksonCBORProvider
+com.github.pjfanning.jackson.jaxrs.cbor.JacksonCBORProvider
 

@@ -1,1 +1,1 @@
-com.fasterxml.jackson.datatype.jaxrs.Jaxrs2TypesModule
+com.github.pjfanning.jackson.datatype.jaxrs.Jaxrs2TypesModule

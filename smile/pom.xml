@@ -19,8 +19,8 @@
 
   <properties>
     <!-- Generate PackageVersion.java into this directory. -->
-    <packageVersion.dir>com/fasterxml/jackson/jaxrs/smile</packageVersion.dir>
-    <packageName>com.fasterxml.jackson.jaxrs</packageName>
+    <packageVersion.dir>com/github/pjfanning/jackson/jaxrs/smile</packageVersion.dir>
+    <packageName>com.github.pjfanning.jackson.jaxrs</packageName>
     <packageVersion.package>${packageName}.smile</packageVersion.package>
     <osgi.export>${packageName}.smile.*;version=${project.version}</osgi.export>
     <!-- NOTE: JAXB annotations module is optional dependency, need to try to mark
