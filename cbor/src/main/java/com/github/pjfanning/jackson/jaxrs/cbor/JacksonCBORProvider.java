@@ -9,7 +9,6 @@ import javax.ws.rs.ext.*;
 import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.dataformat.cbor.CBORFactory;
-import com.github.pjfanning.jackson.jaxrs.cbor.PackageVersion;
 import com.github.pjfanning.jackson.jaxrs.base.ProviderBase;
 import com.github.pjfanning.jackson.jaxrs.cfg.Annotations;
 
