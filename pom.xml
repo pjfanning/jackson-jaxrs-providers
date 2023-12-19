@@ -69,10 +69,14 @@
        -->
     <dependency>
       <groupId>javax.ws.rs</groupId>
-      <!-- 05-Apr-2014, tatu: JAX-RS 2.x has different artifact-id, "javax.ws.rs-api"
-        -->
-      <artifactId>javax.ws.rs-api</artifactId>
-      <version>2.1.1</version>
+      <artifactId>jsr311-api</artifactId>
+      <version>1.1.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.pjfanning</groupId>
+      <artifactId>jsr311-compat</artifactId>
+      <version>0.1.0</version>
       <scope>provided</scope>
     </dependency>
 
